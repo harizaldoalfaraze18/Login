@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <link rel="stylesheet" href="login.css">
+ <head>
+  <title>login</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ </head>
+ <body>
+  <div class="form-container">
+  
+   <form action="#">
+   
+  <div class="input-cnt">
+   <i class="material-icons">person</i>
+   <input type="email" placeholder="Email" id="email" />
+	</div>
+	
+	<div class="input-cnt">
+	 <i class="material-icons">lock</i>
+	 <input type="password" placeholder="Password" id="password" />
+	</div>
+	
+	<div class="input-cnt">
+	 <a href="../singup/singup.html">Buat Akun Baru<a>
+	 <input type="submit" value ="Login" id="login" />
+	</div>
+  </form>
+ </body>
+</html>
